@@ -1,0 +1,44 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.events-bg-container {
+  background-color: #3a4b63;
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-regis-container {
+  width: 40%;
+}
+
+.events-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.event-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid #fff; */
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.inner-container {
+  /* border: 1px solid #ffffff; */
+  width: 90%;
+}
+
+.bg-container {
+  display: flex;
+}

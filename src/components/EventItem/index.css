@@ -1,0 +1,46 @@
+/* Write your CSS here */
+
+.event-card {
+  width: 48%;
+  margin-bottom: 20px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image {
+  width: 100%;
+  margin: 1px;
+}
+
+.name {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.location {
+  font-size: 16px;
+  color: #f8fafc;
+  font-weight: 350;
+  margin-top: 3px;
+}
+
+.img-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 1px;
+  background-color: transparent;
+}
+
+.active {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
+
+.desc-container {
+  margin-top: 5px;
+}
